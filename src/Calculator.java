@@ -11,7 +11,6 @@ public class Calculator {
         int firstNumber = scanner.nextInt();
         System.out.println("Podaj drugą liczbę: ");
         int secondNumber = scanner.nextInt();
-
         System.out.println("Pierwsza liczba to: " + firstNumber +"\n" +
         "Druga liczba to: " + secondNumber);
 
@@ -21,7 +20,7 @@ public class Calculator {
         int subtraction = firstNumber - secondNumber;
         int multiplication = firstNumber * secondNumber;
         float division = firstNumber / secondNumber;
-        int mod = firstNumber % secondNumber; //4 mieści się w 6 = 1, r.2
+        int mod = firstNumber % secondNumber;
 
         System.out.println("Dodawanie: " + addition);
         System.out.println("Odejmowanie: " + subtraction);
