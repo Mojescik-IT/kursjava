@@ -26,7 +26,7 @@ public class Calculator {
         System.out.println("Odejmowanie: " + subtraction);
         System.out.println("Mnożenie: " + multiplication);
         System.out.println("Dzielenie: " + division);
-        System.out.println("Modulo: " + mod);
+        System.out.println("Moduloo: " + mod);
 
 
     }
