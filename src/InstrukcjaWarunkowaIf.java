@@ -1,5 +1,5 @@
 //instrukcje warunkowe pozwalają nam określić które części kodu mają zostać wykonane, gdy zostanie spełniony warunek
-public class InstrukcjaWarunkowaIf  {
+public class InstrukcjaWarunkowaIf {
 
 
     public static void main(String[] args) {
@@ -13,5 +13,5 @@ public class InstrukcjaWarunkowaIf  {
             System.out.println("Proszę podaj inną liczbę");
         }
     }
- }
+}
 

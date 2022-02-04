@@ -13,17 +13,16 @@ public class AgeChecker {
         System.out.println("Twój wiek to: " + age);
         System.out.println("============================");
 
-        if (age < 18) {
+        if (age < 18 && age > 0) {
             System.out.println("Nie możesz kupić alkoholu. Masz poniżej 18 lat");
         } else if (age >= 18) {
-            System.out.println("Możesz kupić alkohol. Masz " + age + " lat" + "\n" + "Dziękujemy za zakupy");
-        } else if (age >= 0) {
+            System.out.println("Możesz kupić alkohol. Masz " + age + " lat" + "\n" + "Dziękujemy za zakupy!");
+        } else if (age <= 0) {
             System.out.println("Podaj poprawny wiek!");
         }
-
-
-
-
     }
 
+
 }
+
+

@@ -5,7 +5,7 @@ public class OperatoryLogiczne {
         boolean firstValue = true;
         boolean secondValue = false;
         boolean thirdValue = false;
-        boolean fourthValue = true ;
+        boolean fourthValue = true;
 
         // && i -> true wtedy gdy wyrażenia składowe są równe true
         System.out.println(firstValue && secondValue); // false
@@ -25,7 +25,6 @@ public class OperatoryLogiczne {
         System.out.println(!firstValue); // false (wartośc odwrotna)
         System.out.println(!secondValue); // true
         System.out.println(!(firstValue && secondValue)); // true
-
 
 
     }

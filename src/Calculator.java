@@ -11,8 +11,8 @@ public class Calculator {
         int firstNumber = scanner.nextInt();
         System.out.println("Podaj drugą liczbę: ");
         int secondNumber = scanner.nextInt();
-        System.out.println("Pierwsza liczba to: " + firstNumber +"\n" +
-        "Druga liczba to: " + secondNumber);
+        System.out.println("Pierwsza liczba to: " + firstNumber + "\n" +
+                "Druga liczba to: " + secondNumber);
 
         System.out.println("==================================");
 
