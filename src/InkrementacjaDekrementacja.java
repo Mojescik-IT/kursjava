@@ -1,7 +1,7 @@
 public class InkrementacjaDekrementacja {
 
     public static void main(String[] args) {
-        //inkrementacja - zwiększenie wartości o jeden
+        //inkrementacja - zwiększenie wartości o jeden (PRE/POST)
 
         int a = 0;
         System.out.println("Wartość a: " + a); //0
@@ -14,7 +14,7 @@ public class InkrementacjaDekrementacja {
 
         System.out.println("===============================");
 
-        //dekrementacja = zmniejszanie wartości o jeden
+        //dekrementacja = zmniejszanie wartości o jeden  (PRE/POST)
         int d = 0;
         System.out.println("Wartość d: " + d); //0
         int e = d--; //postdekrementacja
