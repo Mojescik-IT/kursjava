@@ -26,4 +26,26 @@ public class Metody {
 
     }
 
+
+    public void policzWynikParam(int number) {
+        System.out.println("Number ma wartość: " + number);
+        System.out.println("Zaraz policze wynik");
+        int result = 0;
+        for (int i = 0; i < number; i++) {
+            result = result + i;
+        }
+        System.out.println("Rezultat to: " + result);
+
+
+    }
+
+
+    public int add(int firstNumber, int secondNumber) {
+        System.out.println("Suma to:" + firstNumber + secondNumber);
+        if (firstNumber==0) {
+        return 0;
+            //System.out.println("First number to: 0");
+        }
+        return firstNumber + secondNumber;
+    }
 }
