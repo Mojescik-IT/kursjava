@@ -2,7 +2,16 @@ package ObjectProgramming;
 
 public class Auto {
 
-    public Auto(String marka, String model, int rok, int przebieg){
+
+    public String marka;
+    public String model;
+    public int rok;
+    public int przebieg;
+
+public Auto(){
+}
+
+    public Auto(String marka, String model, int rok, int przebieg) {
         System.out.println("Hello z konstruktora");
         this.marka = marka;
         this.model = model;
@@ -11,11 +20,6 @@ public class Auto {
 
     }
 
-
-    public String marka;
-    public String model;
-    public int rok;
-    public int przebieg;
 
     public void jedz() {
         System.out.println("Jedz!");
