@@ -2,6 +2,16 @@ package ObjectProgramming;
 
 public class Auto {
 
+    public Auto(String marka, String model, int rok, int przebieg){
+        System.out.println("Hello z konstruktora");
+        this.marka = marka;
+        this.model = model;
+        this.rok = rok;
+        this.przebieg = przebieg;
+
+    }
+
+
     public String marka;
     public String model;
     public int rok;
