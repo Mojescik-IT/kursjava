@@ -6,6 +6,8 @@ public class StudentChecker {
 
     public static void main(String[] args) {
 
+        String uczelnia = Student.nazwaUczelni;
+        Student.infoUczelnia();
 
         Student przemek = new Student();
         przemek.imie = "Przemek";
@@ -13,7 +15,8 @@ public class StudentChecker {
         przemek.nick = "przemoj";
         przemek.email = "przemoj@gmail.com";
         przemek.numerIndeksu = 3597;
-
+        String uczelniaPrzemka = przemek.nazwaUczelni;
+        przemek.infoUczelnia();
 
         Student kasia = new Student();
         kasia.imie = "Kasia";
@@ -48,9 +51,6 @@ public class StudentChecker {
         String imie = "Kasia";
         imie.strip();
         Scanner scanner = new Scanner(System.in);
-
-
-
 
 
     }
