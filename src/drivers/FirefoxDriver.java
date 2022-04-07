@@ -10,6 +10,6 @@ public class FirefoxDriver implements WebDriver {
 
     @Override
     public void findElemendBy() {
-        System.out.println("Fin element by Firefox browser");
+        System.out.println("Find element by Firefox browser");
     }
 }
