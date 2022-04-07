@@ -1,6 +1,6 @@
 package ObjectProgramming;
 
-public class Person {
+public  class Person {
     public String name;
     public int age;
 
@@ -11,7 +11,7 @@ public class Person {
     }
 
 
-    public void eat() {
+    public  void eat() {
         System.out.println("I like pizza!");
 
     }

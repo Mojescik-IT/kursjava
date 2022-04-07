@@ -12,6 +12,7 @@ public class MathTeacher extends Person {
 
 
     public void walk() {
+        super.walk();
         System.out.println("I walk very fast!");
     }
 
