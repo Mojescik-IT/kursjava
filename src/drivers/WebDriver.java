@@ -1,4 +1,4 @@
-package ObjectProgramming;
+package drivers;
 
 public interface WebDriver {
 

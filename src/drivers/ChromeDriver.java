@@ -1,6 +1,8 @@
-package ObjectProgramming;
+package drivers;
 
-public class ChromeDriver implements  WebDriver{
+import drivers.WebDriver;
+
+public class ChromeDriver implements WebDriver {
     @Override
     public void get() {
         System.out.println("Open Chrome browser");

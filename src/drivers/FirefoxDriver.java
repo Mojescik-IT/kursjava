@@ -1,6 +1,8 @@
-package ObjectProgramming;
+package drivers;
 
-public class FirefoxDriver implements WebDriver{
+import drivers.WebDriver;
+
+public class FirefoxDriver implements WebDriver {
     @Override
     public void get() {
         System.out.println("Open Firefox browser");
