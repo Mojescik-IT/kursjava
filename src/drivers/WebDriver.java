@@ -4,6 +4,6 @@ public interface WebDriver {
 
     void get();
 
-    void findElemendBy();
+    void findElementBy();
 
 }

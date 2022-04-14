@@ -9,7 +9,7 @@ public class ChromeDriver implements WebDriver {
     }
 
     @Override
-    public void findElemendBy() {
+    public void findElementBy() {
         System.out.println("Find element by Chrome browser");
     }
 }
